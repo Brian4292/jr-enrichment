@@ -7,8 +7,8 @@ Write the necessary Sequelize for 2 models : Students and Teachers:
 Students must have:
 
 ```
-- a name
-- a GPA 
+- a name ok
+- a GPA  ok
 - a teacherID for their corresponding teacher.
 - a method for giving a letter grade based on their GPA (4.0 == A, 3.0 == B, 2.0 == C etc). 
 - A class method for getting all students with a perfect (4.0) GPA.
@@ -16,9 +16,10 @@ Students must have:
 
 Teachers must have:
 ```
- - a name 
- - a subject
+ //- a name  
+ //- a subject 
 ```
+many to many?????
 
 ## Express
 
@@ -26,9 +27,9 @@ Write the necessary Express routes for the following db interactions:
 
 ```
 - GET all students and return them in json
-- GET all teachers and return them in json 
+//- GET all teachers and return them in json ok
 - GET student by ID # and return a json of that student
-- GET teacher by ID # and return a json of that teacher
+//- GET teacher by ID # and return a json of that teacher
 - GET all students for a specific teacher's ID #
 - DELETE a student and return a status code of 202
 - UPDATE a student's teacher and return a status code of 204
